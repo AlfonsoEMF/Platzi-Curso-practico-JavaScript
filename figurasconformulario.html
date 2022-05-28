@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas | Curso practico de JavaScript en Platzi</title>
+</head>
+<body>
+    <!--Esta es la seccion del ejercicio del CUADRADO-->
+    <header>
+        <h1>
+            Figuras Geometricas
+        </h1>
+        <p>Este es el primer taller del curso practico de JavaScript</p>
+    </header>
+    
+    <!--Esta es la seccion del ejercicio del CUADRADO-->
+    <section> 
+        <h2>Calcula el area y perimetro de un Cuadrado</h2>
+        <form>
+            <label for="inputCuadrado">
+                Escribe cuanto mide cada lado de tu cuadrado:
+            </label>
+            <input id="inputCuadrado" type="number" />
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el perimetro
+            </button>
+
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el area
+            </button>
+        </form>
+    </section>
+
+    <!--Esta es la seccion del ejercicio del TRIANGULO-->
+
+    <header>
+        <h1>
+            Figuras Geometricas con triangulo Isosceles
+        </h1>
+    </header>
+
+    <section>
+        <h2>Calcula el area, perimetro y altura de un Triangulo Isosceles</h2>
+        <form>
+            <label for="inputLado1Triangulo">
+                Lado 1:
+            </label>
+            <input id="inputLado1Triangulo" type="number" /><br/>
+
+            <label for="inputLado2Triangulo">
+                Lado 2:
+            </label>
+            <input id="inputLado2Triangulo" type="number" /><br/>
+
+            <label for="inputBaseTriangulo">
+                *-Base:
+            </label>
+            <input id="inputBaseTriangulo" type="number" /><br/>
+
+            <label for="inputAlturaTriangulo">
+                -Altura:
+            </label>
+            <input id="inputAlturaTriangulo" type="number" /><br/>
+
+
+            
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+                Calcular el perimetro
+            </button>
+
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Calcular el area
+            </button>
+
+            <button type="button" onclick="calcularAlturaTriangulo()">
+                Calcular la altura
+            </button>
+        </form>
+    </section>
+
+    <!--Esta es la seccion del ejercicio del CIRCULO-->
+
+    <header>
+        <h1>
+            Figuras Geometricas con Circulo
+        </h1>
+    </header>
+
+    <section>
+        <h2>Calcula el area y perimetro de un Circulo</h2>
+        <form>
+            <label for="inputDiametroCirculo">
+                Diametro: 
+            </label>
+            <input id="inputDiametroCirculo" type="number" />
+
+            <button type="button" onclick="calcularPerimetroCirculo()">
+                Calcular el perimetro
+            </button><br/>
+
+            
+            <label for="inputRadioCirculo">
+                **-Radio: 
+            </label>
+            <input id="inputRadioCirculo" type="number" />
+
+            <button type="button" onclick="calcularAreaCirculo()">
+                Calcular el area
+            </button>
+
+        </form>
+    </section>
+
+    <script src="./figurasconformulario.js"></script>
+</body>
+</html>
