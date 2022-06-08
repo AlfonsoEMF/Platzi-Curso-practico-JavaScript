@@ -189,4 +189,3 @@ function calcularAreaCirculo(){
     alert(area);
 }
 
-//Prueba github buena
