@@ -63,3 +63,5 @@ function calcularMediaAritmetica(lista){
 
     return promediolista;
 }
+
+//Para seguir en windows
