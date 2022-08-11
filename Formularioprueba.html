@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formulariopruebacss.css">
+    <title>Formulario Capturar informacion usuario</title>
+</head>
+<br>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./Formularioprueba.js"></script>
+        
+    <div class="formularioBody">
+        <img src="./Imagen inicio sesion.png" alt="capturarUsuarioImagen">
+        <p class="texto">Ingrese la informacion del usuario</p>
+        <form class="formularioInformacionUsuario">
+            <input id="nombre" type="text" placeholder="Ingrese el nombre">
+            <input id="salario" type="text" placeholder="Ingrese el salario">
+            <button type="button" onclick="capturar()">Agregar</button>
+            <button type="button" onclick="analizar()">Analizar Salarios</button>
+        </form>
+    </div>
+
+
+  <div class="container">
+    <table class="table" id="tabla">
+        <h2>Numero de personas</h2>
+          <thead class="encabezado">
+            <th>Nombre</th>
+            <th>Salario</th>
+          </thead>
+          <tbody></tbody>
+    </table>
+  </div>
+
+
+  <div class="containertop10">
+    <table class="tabletop10" id="tablatop10">
+        <h2>Top 10 Salarios</h2>
+          <thead class="encabezadotop10">
+            <th>Nombre</th>
+            <th>Salario</th>
+          </thead>
+          <tbody></tbody>
+    </table>
+  </div>
+
+  <div>
+    <p class="textoderesultado" id="resultado"></p>
+  </div>
+</body>
+</html>
