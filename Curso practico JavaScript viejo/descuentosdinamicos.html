@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos | Curso practico de JavaScript de Platzi</title>
+</head>
+<body>
+    <header>
+        <h1>Porcentajes y descuentos</h1>
+        <p>Este es el segundo taller del curso practico de JavaScript</p>
+    </header>
+
+    <section>
+        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+
+        <form>
+            <label for="inputPrice">Escribe el precio de tu producto:</label>
+            <input id="inputPrice" type="number"/>
+
+            <label for="inputDiscount">Escribe el descuento de tu producto:</label>
+            <input id="inputDiscount" type="number"/>
+
+            <label for="cupones">Cupones:</label>
+            <input id="cupones" type="text">
+            
+        
+
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+                Calcular el precio con descuento
+            </button>
+
+            <p id="resultPrice"></p>
+
+
+            <p>Escoge tu cupon aqui:</br></br>
+                1) No tengo.</br>
+                2) Cupon Primavera 10% de descuento.</br>
+                3) Cupon Verano 25% de descuento.</br>
+                4) Cupon Invierno 30% de descuento.
+            </p>
+        </form>
+    </section>
+
+<script src="./descuentosdinamicos.js"></script>
+</body>
+</html>
